@@ -1,12 +1,14 @@
 # Starter Reactive Form
 
-- Getting familiar with setting up the form
-- Adding form to template
+- [Setting up the form](#setting-up-the-form)
+- [Adding a form to the template](#adding-form-to-the-template)
 - Default values
 - Submitting the form
-- Displaying form values on UI
+- [Displaying the form values on the UI](#displaying-the-form-values-on-the-ui)
 
-## Getting familiar with setting up the form
+![image](https://github.com/Leka-Workshop/angular-forms/assets/23176181/ac65e8fd-c14c-4bf2-a304-f4d46597b0db)
+
+## Setting up the form
 
 #### starter-features.component.ts
 
@@ -52,7 +54,7 @@ export class StarterFeatureComponent implements OnInit {
 }
 ```
 
-## Adding form to template
+## Adding form to the template
 
 #### starter-features.component.html
 
@@ -84,7 +86,7 @@ this.todoForm = this.fb.group({
 });
 ```
 
-## Displaying form values on UI
+## Displaying the form values on the UI
 
 #### starter-features.component.ts
 
