@@ -1,1 +1,27 @@
-<p>starter-feature works!</p>
+<div class="page-content">
+  <form [formGroup]="todoForm" (ngSubmit)="onSubmit()" class="todo-form">
+
+    <h1>Starter Form</h1>
+
+    <div class="form-field-wrapper">
+      <label>Title</label>
+      <input formControlName="title" type="text" class="form-field" />
+    </div>
+
+    <div class="form-field-wrapper">
+      <label>Description</label>
+      <textarea formControlName="description" class="form-field"></textarea>
+    </div>
+
+    <!--  This button invokes onSubmit() method upon clicking  -->
+    <button class="submit-btn" type="submit">Submit</button>
+  </form>
+
+  <div class="form-values">
+    <div><b>Title:</b> {{titleControlValue}}</div>
+    <div><b>Description:</b> {{descriptionControlValue}}</div>
+
+    <div><b>Full form:</b> {{ todoForm.value | json }}</div>
+  </div>
+
+</div>

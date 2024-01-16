@@ -1,0 +1,52 @@
+.page-content {
+  margin: 10%;
+}
+
+.todo-form {
+  padding: 5%;
+  border-radius: 15px;
+  background-color: #EEE;
+  box-shadow: 3px 2.5px 2.5px #333;
+}
+
+.form-field-wrapper {
+  margin-top: 20px;
+}
+
+.form-field-wrapper > .form-field {
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #555;
+}
+
+.form-field-wrapper > input {
+  height: 30px;
+  padding: 0 5px;
+}
+
+.form-field-wrapper > textarea {
+  height: 100px;
+  padding: 5px;
+  resize: none;
+}
+
+.form-field-wrapper > * {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.submit-btn {
+  height: 30px;
+  background: forestgreen;
+  color: #FFF;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid;
+  margin-top: 10px;
+  padding: 0 15px;
+}
+
+.form-values {
+  margin-top: 30px;
+}
