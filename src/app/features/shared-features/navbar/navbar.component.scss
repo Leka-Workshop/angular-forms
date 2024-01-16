@@ -1,0 +1,19 @@
+.navbar {
+  background: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.nav-items {
+  display: flex;
+  width: 100%;
+  // justify-content: space-between;
+}
+
+.nav-item {
+  padding: 0 20px;
+  color: #666;
+  cursor: pointer;
+  &:hover {
+    color: #000;
+  }
+}
