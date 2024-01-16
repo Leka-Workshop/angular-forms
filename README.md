@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Lessons
 
-* [Starter Form](https://github.com/Leka-Workshop/angular-forms/blob/master/src/app/features/starter-feature/README.md)
+* [Starter Form](https://github.com/Leka-Workshop/angular-forms/blob/master/src/app/features/starter-feature/)
 
 ## Development server
 
